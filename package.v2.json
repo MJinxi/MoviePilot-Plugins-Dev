@@ -1,0 +1,131 @@
+{
+  "IkuaiRouterBackup": {
+    "name": "爱快路由时光机",
+    "description": "轻松备份与恢复您的爱快路由配置，就像使用时光机一样简单",
+    "labels": "备份,自动化",
+    "version": "1.2.1",
+    "icon": "https://raw.githubusercontent.com/xijin285/MoviePilot-Plugins/refs/heads/main/icons/ikuai.png",
+    "author": "M.Jinxi",
+    "level": 2,
+    "history": {
+      "v1.2.1": "兼容主程序API报错问题",
+      "v1.2.0": "新增恢复功能，支持从本地和WebDAV备份恢复配置，并优化UI",
+      "v1.1.8": "新增一键清理历史记录功能",
+      "v1.1.7": "修复远程备份删除失败问题",
+      "v1.1.6": "优化配置界面设计",
+      "v1.1.3": "支持本地备份和WebDAV远程备份",
+      "v1.1.1": "优化通知样式，添加通知样式选择",
+      "v1.0": "初始版本，感谢madrays(三佬)指点有了此项目"
+    }
+  },
+  "CnlangSigninV2": {
+    "name": "国语视界签到V2",
+    "description": "美观实用的签到助手，支持账号监控、数据统计、自动签到",
+    "labels": "签到,自动化",
+    "version": "2.5.8",
+    "icon": "https://raw.githubusercontent.com/xijin285/MoviePilot-Plugins/refs/heads/main/icons/cnlang.png",
+    "author": "M.Jinxi",
+    "level": 2,
+    "history": {
+      "v2.5.8": "增加系统代理支持",
+      "v2.5.7": "修复定时任务重复执行问题",
+      "v2.5.6": "优化Cookie失效提示，增加专门的失效通知和更新提醒，提升用户体验",
+      "v2.5.5": "全新改版账号信息展示，新增用户组、大洋余额等实时数据，优化签到状态和历史统计展示",
+      "v2.5.1": "重构插件界面布局，采用卡片式设计，新增签到统计分析和实时状态展示",
+      "v2.2": "新增'使用说明'卡片，历史记录卡片式美观展示，优化配置表单与通知样式布局",
+      "v2.1": "增加多种通知样式，整体界面更美观",
+      "v2.0": "基于imaliang大佬插件二次开发，优化数据保存与界面，增加通知样式选择、历史记录保留等功能"
+    }
+  },
+  "OpenWrtBackup": {
+    "name": "OpenWrt路由备份助手",
+    "description": "为OpenWrt路由提供全自动的配置备份方案，支持本地保存和WebDAV云端备份",
+    "labels": "备份",
+    "version": "1.0.1",
+    "icon": "https://raw.githubusercontent.com/xijin285/MoviePilot-Plugins/refs/heads/main/icons/openwrt.png",
+    "author": "M.Jinxi",
+    "level": 2,
+    "requirements": ["paramiko>=2.12.0", "requests>=2.31.0", "pytz>=2023.3"],
+    "history": {
+      "v1.0.1": "增加延时下载+轮询检测,提升兼容性问题",
+      "v1.0.0": "首个正式版本：支持SSH密码和密钥认证、本地/WebDAV备份、定时任务、多样通知、历史管理等功能"
+    }
+  },
+  "ProxmoxVEBackup": {
+    "name": "PVE虚拟机守护神",
+    "description": "一站式PVE虚拟化管理平台，智能自动化集成可视化界面高效掌控虚拟机与容器",
+    "labels": "备份,自动化",
+    "version": "2.1.0",
+    "icon": "https://raw.githubusercontent.com/xijin285/MoviePilot-Plugins/refs/heads/main/icons/proxmox.webp",
+    "author": "M.Jinxi",
+    "level": 2,
+    "requirements": ["paramiko>=2.7.0", "pytz>=2021.1", "apscheduler>=3.9.0", "requests>=2.25.0", "psutil>=5.8.0"],
+    "history": {
+      "v2.1.0": "新增临时空间/系统日志清理，新增镜像模板开关（暂未开放交互）",
+      "v2.0.1": "优化容器状态细节体验",
+      "v2.0.0": "全新2.0版本，重构底层架构",
+      "v1.1.5": "修复WebDAV配置问题",
+      "v1.1.4": "兼容OpenList网盘",
+      "v1.1.3": "修复多容器备份问题",
+      "v1.1.2": "修复浅色和幻紫主题下UI显示问题",
+      "v1.1.1": "修复部分备份逻辑备份问题",
+      "v1.1.0": "新增恢复功能，支持恢复备份的虚拟机",
+      "v1.0.0": "首个正式版本"
+    }
+  },
+  "QuarkDisk": {
+    "name": "夸克网盘存储",
+    "description": "为存储系统集成夸克网盘支持，轻松实现云端文件的上传、下载与管理",
+    "labels": "存储,网盘",
+    "version": "1.0.0",
+    "icon": "https://raw.githubusercontent.com/xijin285/MoviePilot-Plugins/refs/heads/main/icons/quark.ico",
+    "author": "M.Jinxi",
+    "level": 2,
+    "history": {
+      "v1.0.0": "首个正式版本：支持夸克网盘基础操作"
+    }
+  },
+  "RandomPic": {
+    "name": "随机图库",
+    "description": "随机图片API服务,支持横屏/竖屏图片分类",
+    "labels": "图片,API",
+    "version": "2.0.0",
+    "icon": "https://raw.githubusercontent.com/xijin285/MoviePilot-Plugins/refs/heads/main/icons/randompic.png",
+    "author": "M.Jinxi",
+    "level": 2,
+    "requirements": ["pytz>=2023.3", "apscheduler>=3.10.1", "requests>=2.31.0"],
+    "history": {
+      "v2.0.0": "全新2.0VUE版本",
+      "v1.0.3": "修复预览页面复制功能，优化日志",
+      "v1.0.2": "新增可视化预览页面，统计数据查看",
+      "v1.0.1": "禁止缓存实时刷新",
+      "v1.0.0": "首个正式版本：支持横竖屏图片分类、自动识别设备类型"
+    }
+  },
+  "CFIPSelector": {
+    "name": "PT云盾优选",
+    "description": "PT站点专属优选IP，自动写入hosts，访问快人一步",
+    "labels": "站点,优选",
+    "version": "1.0.1",
+    "icon": "https://raw.githubusercontent.com/xijin285/MoviePilot-Plugins/refs/heads/main/icons/cfipselector.png",
+    "author": "M.Jinxi",
+    "level": 2,
+    "requirements": ["requests>=2.25.0", "apscheduler>=3.6.0", "python-hosts>=1.0.4"],
+    "history": {
+      "v1.0.1": "修复定时任务不准问题，懒人配置站点默认全选",
+      "v1.0.0": "首个正式版本：支持Cloudflare优选IP、自动写入hosts"
+    }
+  },
+  "DoubanFolio": {
+    "name": "豆瓣观影同步档案(自用版)",
+    "description": "自动同步您的豆瓣观影记录，生成可视化观影档案，支持本地与云端备份，助您轻松管理个人电影足迹。",
+    "labels": "豆瓣",
+    "version": "1.0",
+    "icon": "douban.png",
+    "author": "M.Jinxi",
+    "level": 2,
+    "history": {
+      "v1.0": "首个自用版本"
+    }
+  }
+}
